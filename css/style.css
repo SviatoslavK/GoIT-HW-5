@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Helvetica Neue Light';
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot');
+    src: url('../fonts/helveticaneuecyr-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff2') format('woff2'),
+         url('../fonts/helveticaneuecyr-light-webfont.woff') format('woff'),
+         url('../fonts/helveticaneuecyr-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+   background: -webkit-gradient(linear, left bottom, left top, from(#ebebeb), to(#fafafa));
+   background: -webkit-linear-gradient(bottom, #ebebeb 0%, #fafafa 100%);
+   background: linear-gradient(0deg, #ebebeb 0%, #fafafa 100%); 
+   font-family: 'Helvetica Neue Light';
+}
+.main-container {
+   height: 1064px;
+   width: 1215px;
+   margin: 0 auto;
+   -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+   box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+}
+
+/* HEADER */
+
+header {
+   height: 36px;
+   width: 1215px;
+   background: url(../img/Background-copy.png); 
+   background-repeat: repeat-x;
+}
+.container {
+   position: relative;
+   height: 1028px;
+   width: 1215px;
+   background: url(../img/Background-main.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+nav {
+   width: 1215px;
+   height: 36px;
+   margin: 0 auto;
+}
+.right__nav {
+   display: inline-block;
+   height: 36px;
+   float: right;
+   border-left: 1px solid #60b5ed;
+   
+}
+.right__nav__li {
+   height: 35px;
+   width: 189px;
+   display: inline-block;
+   float: right;
+   text-align: center;
+}
+.right__nav a {
+   font-size: 14px;
+   color: #ffffff;
+   line-height: 36px;
+   text-decoration: none;
+}
+.fa-flag {
+   font-size: 22px;
+   padding-right: 10px;
+}
+.underline {
+   text-decoration: underline;
+}
+.right__nav a:hover {
+   display: inline-block;
+   width: 189px;
+   font-size: 14px;
+   color: #feffff;
+   line-height: 36px;
+   background: url(../img/Layer-16.png); 
+}
+.left__nav {
+   display: inline-block;
+   height: 36px;
+   float: right;
+}
+.left__nav__li {
+   display: inline-block;
+   height: 35px;
+   width: 70px;
+   float: right;
+   text-align: center;
+}
+.left__nav__li-big {
+   display: inline-block;
+   height: 35px;
+   width: 120px;
+   float: right;
+   text-align: center;
+}
+.left__nav a {
+   line-height: 36px;
+   font-size: 14px;
+   color: #60b5ed;
+   text-decoration: none;
+}
+.left__nav a:hover {
+   display: inline-block;
+   font-weight: bold;
+   color: #fff;
+   background-color: #4eabda;
+   padding: 0 10px 0 10px;
+}
+
+/*  FORM */
+
+.form-block {
+   position: absolute;
+   height: 613px;
+   width: 560px;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+   background-color: rgba(0, 0, 0, 0.5);
+}
+.form-block__h2 {
+   height: 60px;
+   border-bottom: 2px solid #bbc5ad;
+   text-align: center;
+   font-size: 24px;
+   line-height: 60px;
+   color: #ffffff;
+}
+.form-block__facebook {
+   height: 35px;
+   width: 276px;
+   background: url(../img/facebook.png); 
+   margin: 35px auto 0 auto;
+}
+.form-block__facebook a {
+   height: inherit;
+   width: inherit;
+   display: inline-block;
+}
+.form-block__line-throught {
+   height: 13px;
+   width: 276px;
+   margin: 31px auto 0 auto;
+   text-align: center;
+   font-size: 14px;
+   color: #999999;
+   line-height: 13px;
+}
+.line1 {
+   height: 2px;
+   width: 276px;
+   background: url(../img/line-throught.png); 
+
+}
+form {
+   width: 276px;
+   margin: 30px auto 0 auto;
+}
+input {
+   height: 35px;
+   width: 276px;
+   background-color: #000;
+   margin-bottom: 15px;
+   padding-left: 20px;
+   border: none;
+   border-bottom: 1px solid #4a4948;
+   font-size: 14px;
+   line-height: 35px;
+   color: #cccccc;
+   z-index: 10;
+}
+button {
+   display: block;
+   height: 35px;
+   width: 149px;
+   margin: 0 auto;
+   border: none;
+   border-radius: 5px;
+   background: url(../img/Button-copy.png); 
+   font-size: 14px;
+   color: #ffffff;
+   line-height: 35px;
+   text-align: center;
+   letter-spacing: -1px;
+   cursor: pointer;
+}
+label {
+   font-size: 14px;
+   color: #cccccc;
+   line-height: 14px;
+}
+#send {
+   height: 13px;
+   width: 13px;
+}
+.form-block__p {
+   width: 309px;
+   margin: 20px auto 0 auto;
+   font-size: 11px;
+   line-height: 16px;
+   color: #cccccc;
+   text-align: center;
+}
+input:focus {
+   background-color: #1b5288;
+   -webkit-box-shadow: 0px 1px 0px 0px #4b4b4b;
+   box-shadow: 0px 1px 0px 0px #4b4b4b;
+}
