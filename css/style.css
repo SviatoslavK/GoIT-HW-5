@@ -18,7 +18,7 @@ body {
 .main-container {
    height: 1064px;
    width: 1215px;
-   margin: 0 auto;
+   margin: 10px auto 20px auto;
    -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
    box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 }
@@ -145,6 +145,7 @@ nav {
    display: inline-block;
 }
 .form-block__line-throught {
+   position: relative;
    height: 13px;
    width: 276px;
    margin: 31px auto 0 auto;
@@ -152,12 +153,14 @@ nav {
    font-size: 14px;
    color: #999999;
    line-height: 13px;
+   
 }
-.line1 {
+.line {
+   position: absolute;
+   top: 5px; 
    height: 2px;
    width: 276px;
-   background: url(../img/line-throught.png); 
-
+   background: url(../img/Layer%201.png); 
 }
 form {
    width: 276px;
@@ -173,8 +176,19 @@ input {
    border-bottom: 1px solid #4a4948;
    font-size: 14px;
    line-height: 35px;
+   letter-spacing: -1px;
    color: #cccccc;
-   z-index: 10;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+input:focus {
+   background-color: #1b5288;
+   -webkit-box-shadow: inset 0px 0px 1px 0px #4b4b4b;
+   -moz-box-shadow: inset 0px 0px 1px 0px #4b4b4b;
+   box-shadow: inset 0px 0px 1px 0px #4b4b4b;
+   -webkit-box-shadow: 0px 0px 5px 2px rgba(87,147,185,1);
+   -moz-box-shadow: 0px 0px 5px 2px rgba(87,147,185,1);
+   box-shadow: 0px 0px 5px 2px rgba(87,147,185,1);
 }
 button {
    display: block;
@@ -208,8 +222,5 @@ label {
    color: #cccccc;
    text-align: center;
 }
-input:focus {
-   background-color: #1b5288;
-   -webkit-box-shadow: 0px 1px 0px 0px #4b4b4b;
-   box-shadow: 0px 1px 0px 0px #4b4b4b;
-}
+
+
