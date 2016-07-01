@@ -14,33 +14,26 @@ body {
    background: -webkit-linear-gradient(bottom, #ebebeb 0%, #fafafa 100%);
    background: linear-gradient(0deg, #ebebeb 0%, #fafafa 100%); 
    font-family: 'Helvetica Neue Light';
+   
 }
 .main-container {
+   position: relative;
    height: 1064px;
-   width: 1215px;
-   margin: 10px auto 20px auto;
-   -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-   box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+   background: url(../img/Background-main.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
 }
 
 /* HEADER */
 
 header {
    height: 36px;
-   width: 1215px;
+   width: 100%;
    background: url(../img/Background-copy.png); 
    background-repeat: repeat-x;
 }
-.container {
-   position: relative;
-   height: 1028px;
-   width: 1215px;
-   background: url(../img/Background-main.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-}
 nav {
-   width: 1215px;
    height: 36px;
    margin: 0 auto;
 }
@@ -71,7 +64,7 @@ nav {
 .underline {
    text-decoration: underline;
 }
-.right__nav a:hover {
+.right__nav a:hover{
    display: inline-block;
    width: 189px;
    font-size: 14px;
