@@ -64,7 +64,7 @@ nav {
 .underline {
    text-decoration: underline;
 }
-.right__nav a:hover{
+.right__nav a:hover {
    display: inline-block;
    width: 189px;
    font-size: 14px;
